@@ -28,6 +28,10 @@ public class Persona {
         totalPersonas++;
     }
 
+    public Persona(String nombre){
+        this.nombre = nombre;
+        totalPersonas++;
+    }
     public Persona() {
         this.cedula = 0;
     }
